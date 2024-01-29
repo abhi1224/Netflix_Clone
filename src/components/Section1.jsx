@@ -30,7 +30,7 @@ function Section1() {
 
                 <div className='flex flex-col md:flex-row gap-5 justify-start md:items-center mt-5'>
                     <input type="text" placeholder='Email Address' className="md:w-3/4 w-full px-3 py-5 rounded bg-gray-800/45 border " />
-                    <button className="md:w-1/4 w-64 px-5 py-4 rounded bg-red-600 font-bold text-2xl text-left">Get Started</button>
+                    <button className=" w-64 px-5 py-4 rounded bg-red-600 font-bold text-2xl text-left">Get Started</button>
 
                 </div>
             </div>

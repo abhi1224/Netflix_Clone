@@ -1,15 +1,30 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Section1 from './components/Section1'
+import Card from './components/Card'
 
 function App() {
   const [count, setCount] = useState(0)
 
+  const data = [
+    {
+      text:"Stories tailored to your taste",
+      imgUrl:""
+    },
+    {
+      text:"card 2"
+    }
+  ]
+
   return (
     <>
-     <Section1 />
+     <div className="bg-black">
+        <Section1 />
+        {data.map((item , index) => (
+          <Card  data = {item}/>
+        ))}
+        
+     </div>
     </>
   )
 }
