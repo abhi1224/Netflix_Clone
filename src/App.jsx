@@ -2,6 +2,8 @@ import { useState } from 'react'
 import './App.css'
 import Section1 from './components/Section1'
 import Card from './components/Card'
+import Accordian from './components/Accordian'
+import MyAccordian from './components/MyAccordian'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -25,6 +27,8 @@ function App() {
     },
   ]
 
+ 
+
   return (
     <>
       <div className="bg-black">
@@ -38,7 +42,7 @@ function App() {
             ))}
           </div>
         </div>
-
+        <MyAccordian />
       </div>
     </>
   )
