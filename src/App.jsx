@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import './App.css'
 import Section1 from './components/Section1'
+import Section4 from './components/Section4'
 import Card from './components/Card'
-import Accordian from './components/Accordian'
 import MyAccordian from './components/MyAccordian'
 
 function App() {
@@ -43,6 +43,7 @@ function App() {
           </div>
         </div>
         <MyAccordian />
+        <Section4 />
       </div>
     </>
   )
