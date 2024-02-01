@@ -1,12 +1,12 @@
 import { useState } from 'react'
 import './App.css'
 import Section1 from './components/Section1'
-import Section4 from './components/Section4'
 import Card from './components/Card'
 import MyAccordian from './components/MyAccordian'
+import Input_section from './components/Input_section'
 
 function App() {
-  // const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0)
 
   const data = [
     {
@@ -43,7 +43,7 @@ function App() {
           </div>
         </div>
         <MyAccordian />
-        <Section4 />
+        <Input_section />
       </div>
     </>
   )
