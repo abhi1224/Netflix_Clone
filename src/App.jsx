@@ -4,6 +4,7 @@ import Section1 from './components/Section1'
 import Card from './components/Card'
 import MyAccordian from './components/MyAccordian'
 import Input_section from './components/Input_section'
+import Footer from './components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -44,6 +45,7 @@ function App() {
         </div>
         <MyAccordian />
         <Input_section />
+        <Footer />
       </div>
     </>
   )
